@@ -16,10 +16,13 @@ In October 2009, a vaccine against the H1N1 flu virus became widely available. T
 ## Aim of the project
 The health sector has had a lot of pressure in dealing with the pandemics and also the governments have struggled with the distribution of the vaccined created by the scientists. The Aim of the project is to find the probabilities of people to get vaccinated with the COVID-19 vaccine through the analysis of the Swine Flu vaccination data. 
 ## Questions to answer
-    The studio with the most movies
-    What genres are most produced
-    The language of the movie that is most popular
-    How the year of production has affected it worldwide_gross
+    Does sex has affected the distribution of the vaccine?
+    Does race affect the distribution of the vaccine?
+    Does Education level affect the distribution of the vaccine?
+    Does Location affect the distribution of the vaccine?
+    Does Homeownership affect the distribution of the vaccine
+    How the chronic illnesses has affected the distribution of the vaccine?
+    Does Age group affect the distribution of the vaccine?oss
 
 # 3. Data Understanding
 
