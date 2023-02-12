@@ -5,7 +5,6 @@ In this project, machine learning modelling such as classification models, data 
 
 # Project Overview
 ## Overview
-The aim of this project is to help the new Microsoft movie department to get insights. They want to get into the movie industry as it is a very fast growing industry with other big companies having a share from it. This analysis will help them get a piece of the cake.
 ##Business Problem
 In the awaking of 2020, COVID-19 became a huge dilemma that took the world by storm. Millions ended up dying from the virus. Governments across the globe have started and have already distributed the COVID-19 vaccines.
 
