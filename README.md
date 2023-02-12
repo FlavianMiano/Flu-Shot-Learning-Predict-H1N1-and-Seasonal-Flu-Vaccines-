@@ -109,38 +109,38 @@ Data cleaning was done by dropping missing values and filling the usable missing
 ## Screenshots
 ### 1. Does sex has affected the distribution of the vaccine?
 #### img 1.
-![App Screenshot](IMG1.png)
-![App Screenshot](IMG2.png)
+![App Screenshot](img1.png)
+![App Screenshot](img2.png)
 ### 2. Does race affect the distribution of the vaccine?
 #### img 1.
-![App Screenshot](IMG3.png)
-![App Screenshot](IMG4.png)
+![App Screenshot](img3.png)
+![App Screenshot](img4.png)
 #### img 2.
-![App Screenshot](IMG5.png)
-![App Screenshot](IMG6.png)
+![App Screenshot](img5.png)
+![App Screenshot](img6.png)
 #### img 3.
-![App Screenshot](IMG7.png)
-![App Screenshot](IMG8.png)
+![App Screenshot](img7.png)
+![App Screenshot](img8.png)
 ### 3. Does Education level affect the distribution of the vaccine?
 #### img 1.
-![App Screenshot](IMG9.png)
-![App Screenshot](IMG10.png)
+![App Screenshot](img9.png)
+![App Screenshot](img10.png)
 ### 4. Does Location affect the distribution of the vaccine?
 #### img 1.
-![App Screenshot](IMG11.png)
-![App Screenshot](IMG12.png)
+![App Screenshot](img11.png)
+![App Screenshot](img12.png)
 ### 5. Does homeownership affect the distribution of the vaccine?
 
-![App Screenshot](IMG13.png)
+![App Screenshot](img13.png)
 ### 6. How the chronic illnesses has affected the distribution of the vaccine?
 #### img 1.
-![App Screenshot](IMG14.png)
-![App Screenshot](IMG15.png)
+![App Screenshot](img14.png)
+![App Screenshot](img15.png)
 
 ### 7. Does Age group affect the distribution of the vaccine?
 #### img 1.
-![App Screenshot](IMG16.png)
-![App Screenshot](IMG17.png)
+![App Screenshot](img16.png)
+![App Screenshot](img17.png)
 
 ## Modelling
 
