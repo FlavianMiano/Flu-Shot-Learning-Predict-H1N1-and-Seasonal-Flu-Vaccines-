@@ -134,7 +134,7 @@ Data cleaning was done by dropping missing values and filling the usable missing
 
 ## Modelling
 
-![App Screenshot](IMG15.png)
+![App Screenshot](img15.png)
 
 ## Conclusion
 Incorporate more variables: The model could benefit from incorporating more variables that could affect vaccine uptake, such as demographic factors (e.g., age, income, education), personal beliefs (e.g., perception of vaccine safety, efficacy), and access to healthcare. Utilize recent data: The model's training data should be updated to include the most recent information to reflect changes in vaccine uptake patterns. Tune the model: The model can be further improved by fine-tuning its
