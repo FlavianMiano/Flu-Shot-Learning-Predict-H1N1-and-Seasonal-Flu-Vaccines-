@@ -5,7 +5,7 @@ In this project, machine learning modelling such as classification models, data 
 
 # Project Overview
 ## Overview
-##Business Problem
+## Business Problem
 In the awaking of 2020, COVID-19 became a huge dilemma that took the world by storm. Millions ended up dying from the virus. Governments across the globe have started and have already distributed the COVID-19 vaccines.
 
 This project will revisit the public health response to a different recent major respiratory disease pandemic and try predict the probability of people taking the COVID-19 vaccine.
