@@ -1,0 +1,97 @@
+Flu Shot Learning Predict H1N1 and
+Seasonal Flu Vaccines
+
+BUSINESS UNDERSTANDING
+
+In the awakening of 2020, COVID-19 became a huge dilemma that took the world by storm. Millions ended up dying from the virus. Governments across the globe have started and have already distributed the COVID-19 vaccines.This project will revisit the public health response to a different recent major respiratory disease pandemic and try predict the probability of people taking the COVID-19 vaccine.
+In early 2009, Swine Flu (H1N1 virus) became a pandemic and it swept the world and around 150,000 - 500,000 deaths were recorded globally.
+In October 2009, a vaccine against the H1N1 flu virus became widely available. The National 2009 H1N1 Flu Survey was conducted in the United States in late 2009 and early 2010. This phone survey asked respondents if they had received the H1N1 and seasonal flu vaccines, as well as personal questions. These additional questions focused on their social, economic, and demographic backgrounds, perspectives on illness risks and vaccine effectiveness, and behaviors aimed at preventing transmission. A better understanding of how these traits are related to personal vaccination patterns can help guide future public health efforts.
+
+
+Main Objective 
+The main objective of the project is to forecast how likely people are to receive H1N1 and seasonal flu vaccines. You will specifically predict two probabilities: one for h1n1 vaccine and one for seasonal vaccine. Also how social, economic, and demographic backgrounds, perspectives on illness risks and vaccine effectiveness, and behaviors affect the intake of the vaccines.
+
+The metric of success
+The success of this project will be measured using the accuracy score, recall score and precision score.
+Also in the competition once the submission is done its accuracy is calculated. .
+
+Data Understanding
+Data Source 
+Data that was used was downloaded from  Driven Data
+
+Data Description
+The information in the data is as follows:
+h1n1_concern - Level of concern about the H1N1 flu.
+h1n1_knowledge - Level of knowledge about H1N1 flu.
+behavioral_antiviral_meds - Has taken antiviral medications. 
+behavioral_avoidance - Has avoided close contact with others with flu-like symptoms. 
+behavioral_face_mask - Has bought a face mask. 
+behavioral_wash_hands - Has frequently washed hands or used hand sanitizer. 
+behavioral_large_gatherings - Has reduced time at large gatherings. 
+behavioral_outside_home - Has reduced contact with people outside of own household. 
+behavioral_touch_face - Has avoided touching eyes, nose, or mouth. 
+doctor_recc_h1n1 - H1N1 flu vaccine was recommended by doctor.
+doctor_recc_seasonal - Seasonal flu vaccine was recommended by doctor. 
+chronic_med_condition - Has any of the following chronic medical conditions: asthma or an other lung condition, diabetes, a heart condition, a kidney condition, sickle cell anemia or other anemia, a neurological or neuromuscular condition, a liver condition, or a weakened immune system caused by a chronic illness or by medicines taken for a chronic illness. 
+child_under_6_months - Has regular close contact with a child under the age of six months. 
+health_worker - Is a healthcare worker. 
+health_insurance - Has health insurance. 
+opinion_h1n1_vacc_effective - Respondent's opinion about H1N1 vaccine effectiveness.
+opinion_h1n1_risk - Respondent's opinion about risk of getting sick with H1N1 flu without vaccine.
+opinion_h1n1_sick_from_vacc - Respondent's worry of getting sick from taking H1N1 vaccine.
+opinion_seas_vacc_effective - Respondent's opinion about seasonal flu vaccine effectiveness.
+opinion_seas_risk - Respondent's opinion about risk of getting sick with seasonal flu without vaccine.
+opinion_seas_sick_from_vacc - Respondent's worry of getting sick from taking seasonal flu vaccine.
+age_group - Age group of respondent.
+education - Self-reported education level.
+race - Race of respondent.
+sex - Sex of respondent.
+income_poverty - Household annual income of respondent with respect to 2008 Census poverty thresholds.
+marital_status - Marital status of respondent.
+rent_or_own - Housing situation of respondent.
+employment_status - Employment status of respondent.
+hhs_geo_region - Respondent's residence using a 10-region geographic classification defined by the U.S. Dept. of Health and Human Services. Values are represented as short random character strings.
+census_msa - Respondent's residence within metropolitan statistical areas (MSA) as defined by the U.S. Census.
+household_adults - Number of other adults in household, top-coded to 3.
+household_children - Number of children in household, top-coded to 3.
+employment_industry - Type of industry respondent is employed in. Values are represented as short random character strings.
+employment_occupation - Type of occupation of respondent. Values are represented as short random character strings.
+
+
+Data Preparation
+Loading Libraries
+Load the libraries necessary for cleaning and analysis
+Loading the Data
+Load the dataset from the CSV file. The names of the CSV files are: "test_set_features.csv, "training_set_features.csv", "training_set_labels.csv" and "submission_format.csv"
+The shape of the dataset is: training set labels(26707rows,3 columns), training set features (26707 rows, 36 columns), and test set features (26707 rows, 36 columns). 
+Cleaning the Data
+Data cleaning is the process of preparing data for analysis by removing irrelevant or incorrect information. This type of information usually reinforces a false belief, which can have a negative impact on the model or algorithm into which it is fed.
+
+The steps for the data cleaning process are:
+
+Ensure that there are no duplicates in the data.
+Ensure that the dataset data types are correct.
+Ensure that there are no missing values in the dataset.
+
+
+Modelling
+To predict the likelihood of respondents in the survey taking the h1n1 vaccine and seasonal vaccine, machine learning algorithms were used.
+The ultimate accuracy was determined using logistic regression, decision trees, Random Forest and KNearest Neighbors.
+
+
+
+
+
+
+Conclusion and Recommendation 
+Conclusion
+Incorporate more variables: The model could benefit from incorporating more variables that could affect vaccine uptake, such as demographic factors (e.g., age, income, education), personal beliefs (e.g., perception of vaccine safety, efficacy), and access to healthcare. Utilize recent data: The model's training data should be updated to include the most recent information to reflect changes in vaccine uptake patterns. Tune the model: The model can be further improved by fine-tuning its
+Tune the model: The model can be further improved by fine-tuning its parameters to increase its accuracy. This can be done through techniques such as cross-validation, which involves splitting the data into training and validation sets, and using the validation set to evaluate the model's performance. Consider alternative models: It may also be worth exploring alternative machine learning models, such as decision trees or random forests, to see if they perform better in predicting vaccine uptak
+uptake. Conduct additional research: Finally, it would be useful to conduct additional research to identify new factors that could impact vaccine uptake and incorporate them into the model. This could involve surveys, focus groups, or other forms of qualitative research to gain a deeper understanding of people's attitudes and behaviors towards vaccines.
+Recommendations 
+Based on the conclusion drawn from the data, here are a few recommendations that could be made:
+1. Through the model predictions we can recommend the governments to do more public education on the importance of the vaccines and mostly focus on the 34-44 years age group.
+2. The vaccines should be made more available and accessible to all people and most importantly those with chronic illnesses
+
+
+
